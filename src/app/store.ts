@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import {homeReducer} from './screens/home-screen';
+import { homeReducer } from './screens/home-screen';
 
 const store = configureStore({
   reducer: {
-    home: homeReducer,
+    functionChain: homeReducer,
   },
 });
 

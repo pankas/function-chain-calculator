@@ -1,7 +1,5 @@
-export interface HomeState {
-    searchTerm: string;
-}
+import { InitialInput } from "./screens/home-screen/home-screen.type";
 
 export interface RootState {
-    home: HomeState;
+    functionChain: InitialInput;
 }

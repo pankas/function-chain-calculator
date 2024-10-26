@@ -1,1 +1,1 @@
-export const SET_SEARCH_TERM = 'SET_SEARCH_TERM';
+export const functionOrder = [1, 2, 4, 5, 3];

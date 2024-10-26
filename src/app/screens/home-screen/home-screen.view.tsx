@@ -1,14 +1,8 @@
 import React from 'react';
-// import { Provider, useDispatch, useSelector } from 'react-redux';
-// import { setSearchTerm } from './home-screen.actions';
-// import { RootState } from '../../types';
+import FunctionChain from './molecule/function-chain/function-chain.view';
 
 const HomeScreen = () => {
-  // const dispatch = useDispatch();
-  // const searchTerm = useSelector((state: RootState) => state.home.searchTerm);
-  return <div>
-    WIP
-  </div>
+  return <FunctionChain />
 
 }
 
