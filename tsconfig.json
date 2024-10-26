@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "es2015",
+      "moduleResolution": "Bundler",
+      "jsx": "react",
+      "moduleSuffixes": [""],
+      "baseUrl": ".",
+      "rootDir": ".",
+      "outDir": "dist",
+    },
+    "include": [
+      "src",
+      "config",
+      "src/types/theme.d.ts",
+      "src/types/global-types.d.ts",
+      "jest.mock.ts"
+    ]
+  }
